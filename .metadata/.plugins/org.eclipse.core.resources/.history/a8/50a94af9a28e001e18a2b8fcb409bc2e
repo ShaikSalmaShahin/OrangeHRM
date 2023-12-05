@@ -1,0 +1,10 @@
+Feature:OrangeHRM Application functionalities testing
+Scenario: OrangeHRM Application loginpage validation
+
+Given User should open chrome browser in the system
+
+When User enters OrangeHRM Application url address
+
+Then User should be naviagting to OrangeHRM Application login webpage
+
+Then User should close the OrangeHRM Application along with the browser
